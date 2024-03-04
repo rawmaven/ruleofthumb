@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@layer base {
+  #app {
+    @apply w-full h-full;
+  }
+  body {
+    @apply w-screen h-screen font-lato-regular overflow-auto;
+  }
+}
