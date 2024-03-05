@@ -1,12 +1,12 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue';
-import Card from './components/Card.vue';
+import HeroBanner from './components/HeroBanner.vue';
 import TwoColumnBox from './components/TwoColumnBox.vue'
 </script>
 
 <template>
   <AppHeader />
-  <Card />
+  <HeroBanner />
   <TwoColumnBox />
 </template>
 
