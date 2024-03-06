@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="w-full h-[28vh] px-3 pt-6">
+  <div class="w-full px-3 pt-6">
     <div class="flex items-center bg-rto-light-gray">
       <div class="w-2/5 p-3">
         <h2 class="flex flex-col">

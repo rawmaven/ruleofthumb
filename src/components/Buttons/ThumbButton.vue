@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <button :class="`${iconName} ${'w-full h-8 flex justify-center items-center'}`">
+  <button :class="`${iconName} ${'w-full h-8 flex justify-center items-center outline-none'}`">
     <GenericIcon 
       :iconName="iconName" fill="white" iconHeight="18" iconWidth="18" />
   </button>
